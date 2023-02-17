@@ -29,6 +29,7 @@ ament_target_dependencies(
 
 install(DIRECTORY
   launch
+  rviz
   DESTINATION share/${PROJECT_NAME}/
 )
 

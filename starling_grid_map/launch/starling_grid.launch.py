@@ -10,7 +10,7 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
     
     base_path = os.path.realpath(get_package_share_directory('starling_grid_map'))
-    rviz_path=base_path+'/launch/starling_grid_map.rviz'
+    rviz_path=base_path+'/rviz/starling_grid_map.rviz'
 
     return LaunchDescription([
         DeclareLaunchArgument(
