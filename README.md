@@ -1,2 +1,5 @@
 # starling-trajectory-grid
-A repo to generate a grid world based on topographic map of the world in ROS humble environment 
+## installation
+Install ROS2 Humble
+
+``sudo apt-get install ros-humble-grid-map``
