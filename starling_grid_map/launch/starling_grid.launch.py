@@ -19,7 +19,7 @@ def generate_launch_description():
             description='Use simulation (Gazebo) clock if true'),
         Node(
             package='starling_grid_map',
-            executable='tarling_grid_node',
+            executable='tarling_grid',
             name='tarling_grid_node',
             output='screen'),
         Node(
