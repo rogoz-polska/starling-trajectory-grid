@@ -20,7 +20,7 @@ def generate_launch_description():
         Node(
             package='starling_grid_map',
             executable='tarling_grid',
-            name='tarling_grid_node',
+            name='tarling_grid',
             output='screen'),
         Node(
             package='rviz2',
