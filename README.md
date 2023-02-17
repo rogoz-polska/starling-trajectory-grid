@@ -1,4 +1,4 @@
-# starling-trajectory-grid
+# starling_trajectory_grid
 ## installation
 Install ROS2 Humble
 
